@@ -3,9 +3,9 @@
 </p>
 
 <h1>osTicket - Ticket Lifecycle: Intake Through Resolution</h1>
-Welcome the last part of the osTicket tutorial. Here, we will show the lifecycle of a ticket from intake to resolution within the open-source help desk ticketing system osTicket.
+Welcome the last part of the osTicket tutorial. Here, we will show the lifecycle of a ticket from intake to resolution within the open-source help desk ticketing system osTicket. 
 
-<br />
+*(note : these are only examples and ticket resolutions/SLAs will vary from organization to organization.)*
 
 <h2>Environments and Technologies Used</h2>
 
@@ -51,22 +51,77 @@ Welcome the last part of the osTicket tutorial. Here, we will show the lifecycle
   - As a Help Desk Agent (John), observe the ticket’s properties
 
     - Priority
-  	- Department
-  	- SLA
-  	- Assigned To
-
+    - Department
+    - SLA
+    - Assigned To
+  	  
   -  Go to http://localhost/osTicket/scp/login.php and log in as John (from the previous lab)
 
 ![image](https://github.com/user-attachments/assets/d22fcc7f-0dbf-42e1-8567-f492306276e2)
 
 
-Set Properties to the ticket
-Sev-A (1 hour, 24/7)
-Online Banking Department
+  - Click on the new ticket and observe.
 
-Attempt to observe the ticket again as “john”. Can you view or change?
+![image](https://github.com/user-attachments/assets/175c84ac-5df6-4b25-b746-06fd0dc09f29)
 
-Work the ticket to completion as jane
+![image](https://github.com/user-attachments/assets/8fd64081-82e9-4c31-be93-b0aba607c222)
+	
+  - Priority : Seeing that this is an important concern, click high and update
+
+![image](https://github.com/user-attachments/assets/b88ad9f3-c3f9-4851-a074-3cd5546557e3)
+
+  - Department : this has to be escalated to a System Administator, click System Administrator then transfer
+
+![image](https://github.com/user-attachments/assets/4272dfcf-3735-4ca9-b1b7-82043430371d)
+
+  - Attempt to observe the ticket again as “john”. Notice that the ticket is gone.
+
+![image](https://github.com/user-attachments/assets/19647e76-0a17-49f4-b02d-ea3281e58a77)
+
+<br />
+
+<h3>3. Working the Issue</h3>
+
+  - Work the ticket to completion as Jane (System Administrator)
+     -  Go to http://localhost/osTicket/scp/login.php and log in as Jane and click the ticket
+
+![image](https://github.com/user-attachments/assets/ba75ce73-ebf7-4a6c-ac81-1c70f3144acc)
+
+![image](https://github.com/user-attachments/assets/878dceb2-5d80-4107-9784-788631b901db)
+
+  - As Jane, observe that the ticket is now high priority and moved to your department.
+
+![image](https://github.com/user-attachments/assets/96e5987d-5411-4ea0-85ca-984cbcfe6426)
+
+ - For example, the system admin will look into this and look for a resolution. She may write a response such as:
+
+![image](https://github.com/user-attachments/assets/689581c5-a982-4b51-a04e-80335ae62d30)
+
+![image](https://github.com/user-attachments/assets/c5f53203-0274-43a3-9ca7-be41a71baf62)
+
+<br />
+
+<h3>4. Resolution</h3>
+
+  - As Jane, come back with a resolution such as below then Post Reply
+
+![image](https://github.com/user-attachments/assets/7250adfa-0966-41ec-9fd9-6f354935aaef)
+
+![image](https://github.com/user-attachments/assets/b28e0a79-5824-4af6-a550-ba080848da75)
+
+  - Now that the ticket is resolved, you can close the ticket
+
+![image](https://github.com/user-attachments/assets/4367f7c0-1608-4ce4-aa4f-4eba7e6abb75)
+
+  - After closing the ticket, hover on Open and click Open
+
+![image](https://github.com/user-attachments/assets/5ea90cfd-2f3c-4837-8726-1ce6912e369a)
+
+  - See that the ticket is no longer available
+
+![image](https://github.com/user-attachments/assets/0ef9d2a0-5034-46fe-8e11-770200d05472)
+
+
 
 As an end-user, create the following ticket
 accounting department needs adobe upgrade, broken
