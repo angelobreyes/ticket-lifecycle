@@ -3,12 +3,9 @@
 </p>
 
 <h1>osTicket - Ticket Lifecycle: Intake Through Resolution</h1>
-This tutorial outlines the lifecycle of a ticket from intake to resolution within the open-source help desk ticketing system osTicket.<br />
+Welcome the last part of the osTicket tutorial. Here, we will show the lifecycle of a ticket from intake to resolution within the open-source help desk ticketing system osTicket.
 
-
-<h2>Video Demonstration</h2>
-
-- ### [YouTube: How to create, work, and resolves tickets within osTicket](https://www.youtube.com)
+<br />
 
 <h2>Environments and Technologies Used</h2>
 
@@ -29,26 +26,87 @@ This tutorial outlines the lifecycle of a ticket from intake to resolution withi
 
 <h2>Lifecycle Stages</h2>
 
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-</p>
+<h3>1. Intake</h3>
+
+  - As an end-user, create the following ticket : "entire mobile/online banking system is down"
+  - To create a ticket, go to http://localhost/osTicket/ and click Create a New Ticket
+    (*You can use any of the two buttons*)
+
+![image](https://github.com/user-attachments/assets/3a75994d-2171-4865-8c4e-c3f5eaea145c)
+
+  - On contact information, you can use a user from the previous lab that we created.
+  - Help topic : Report a problem
+  - Issue Summary : entire mobile/online banking system is down
+  - Click Create Ticket
+
+![image](https://github.com/user-attachments/assets/c0a90283-ea85-4c57-a723-f66c6d8ecb1d)
+
+![image](https://github.com/user-attachments/assets/04815619-0a93-4a53-ad50-3247a7d65491)
+
+
 <br />
 
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-</p>
-<br />
+<h3>2. Assignment and Communication</h3>
 
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-</p>
-<br />
+  - As a Help Desk Agent (John), observe the ticket’s properties
+
+    - Priority
+  	- Department
+  	- SLA
+  	- Assigned To
+
+  -  Go to http://localhost/osTicket/scp/login.php and log in as John (from the previous lab)
+
+![image](https://github.com/user-attachments/assets/d22fcc7f-0dbf-42e1-8567-f492306276e2)
+
+
+Set Properties to the ticket
+Sev-A (1 hour, 24/7)
+Online Banking Department
+
+Attempt to observe the ticket again as “john”. Can you view or change?
+
+Work the ticket to completion as jane
+
+As an end-user, create the following ticket
+accounting department needs adobe upgrade, broken
+
+As a Help Desk Agent (john), observe the ticket’s properties
+	Priority
+	Department
+	SLA
+	Assigned To
+
+Set Properties to the ticket
+Sev-B (4 hours, 24/7)
+Support
+
+Work the ticket to completion as john
+
+As an end-user, create the following ticket
+CFO’s laptop will no longer turn on
+
+As a Help Desk Agent (john), observe the ticket’s properties
+	Priority
+	Department
+	SLA
+	Assigned To
+
+Set Properties to the ticket
+Sev-B (4 hours, 24/7)
+Support
+
+Work the ticket to completion as john
+
+
+Set Properties to all the tickets; do SEV-A (SysAdmins last), observe ticket becomes inaccessible
+Switch to admin panel and assign yourself View-access to Sys Admins
+Switch to agent panel and observe the escalated ticket
+Observe that you can no longer make changes to it
+
+Solve all of the tickets
+Explain in most ticketing systems (probably this one too) there is an email capability so every time you update the ticket, the user gets a copy and they can respond
+
+Explain ticket intake IRL:
+Sometimes tickets get created via phone, chat app, email, web form, or maybe even you run into someone in your hall or they roll up on you at your desk.
+A lot of the time people will randomize you and try to get you to fix stuff on the spot. It’s fine to fix things on the spot, but generally speaking, you want to create tickets for EVERYTHING you do. (metrics are important)
