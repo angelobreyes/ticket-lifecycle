@@ -26,6 +26,8 @@ Welcome the last part of the osTicket tutorial. Here, we will show the lifecycle
 
 <h2>Lifecycle Stages</h2>
 
+<h4>Example 1 - "entire mobile/online banking system is down"</h4>
+
 <h3>1. Intake</h3>
 
   - As an end-user, create the following ticket : "entire mobile/online banking system is down"
@@ -66,7 +68,7 @@ Welcome the last part of the osTicket tutorial. Here, we will show the lifecycle
 
 ![image](https://github.com/user-attachments/assets/8fd64081-82e9-4c31-be93-b0aba607c222)
 	
-  - Priority : Seeing that this is an important concern, click high and update
+  - Priority : Seeing that this is an important concern, click high and update 
 
 ![image](https://github.com/user-attachments/assets/b88ad9f3-c3f9-4851-a074-3cd5546557e3)
 
@@ -90,8 +92,14 @@ Welcome the last part of the osTicket tutorial. Here, we will show the lifecycle
 ![image](https://github.com/user-attachments/assets/878dceb2-5d80-4107-9784-788631b901db)
 
   - As Jane, observe that the ticket is now high priority and moved to your department.
+  - She may also set the SLA Plan to Sev-A due to its potential impact and severity
 
 ![image](https://github.com/user-attachments/assets/96e5987d-5411-4ea0-85ca-984cbcfe6426)
+
+![image](https://github.com/user-attachments/assets/4fe0665e-08c1-46ef-9c8e-e6053da86281)
+
+![image](https://github.com/user-attachments/assets/954a3782-b0cf-4007-ad6e-118d2f486d06)
+
 
  - For example, the system admin will look into this and look for a resolution. She may write a response such as:
 
@@ -121,47 +129,92 @@ Welcome the last part of the osTicket tutorial. Here, we will show the lifecycle
 
 ![image](https://github.com/user-attachments/assets/0ef9d2a0-5034-46fe-8e11-770200d05472)
 
+<br />
+
+<h4>Example 2 : "accounting department needs adobe upgrade, broken" </h4>
+
+<h3>1. Intake</h3>
+
+  - As an end user, go to http://localhost/osTicket/index.php and create the ticket
+  - Click Open a New Ticket -> fill in the fields -> click Create Ticket
+
+![image](https://github.com/user-attachments/assets/552700c8-2cfb-472f-ab6f-d5282d201734)
+
+  - Fill in Issue Summary and description -> click Create Ticket
+
+![image](https://github.com/user-attachments/assets/691df69a-5e07-4e11-a20e-c6dee36c9d9a)
+
+  - After creating a ticket, you'll see a confirmation page
+
+![image](https://github.com/user-attachments/assets/2bc0653b-e581-4a15-98a4-3ed4f77e9de1)
+
+<br />
+
+<h3>2. Assignment and Communication</h3>
+
+  - As a Help Desk Agent (John), observe the ticket’s properties
+
+    - Priority
+    - Department
+    - SLA
+    - Assigned To
+
+  -  Go to http://localhost/osTicket/scp/login.php and log in as John
+
+![image](https://github.com/user-attachments/assets/414eaf99-317e-494a-a8ea-b7d16864cbbc)
+
+  - Click the new ticket and observe
+ 
+![image](https://github.com/user-attachments/assets/522678e1-9aef-473b-92f4-e89f6e164995)
+
+![image](https://github.com/user-attachments/assets/e8c219a1-0c36-441b-b864-438cd602d505)
+
+ - For example, upon reading the ticket, John may contact the user and ask for clarifications,
+    set the SLA to Sev-C and leave a reason such as :
+
+![image](https://github.com/user-attachments/assets/3df3b5d5-3f11-4492-88ac-81cb22a9d139)
+
+![image](https://github.com/user-attachments/assets/a6bb7aa1-125b-443a-b368-ae907f42e407)
+
+![image](https://github.com/user-attachments/assets/f47b8177-1326-4973-918b-8ea6e3c8112e)
+
+![image](https://github.com/user-attachments/assets/e61d48b9-12d3-4539-882b-573183ddff7f)
+
+  - He may also assign this to himself
+
+![image](https://github.com/user-attachments/assets/3c93cac1-1cd0-49bf-93c5-ba39788780b2)
+
+![image](https://github.com/user-attachments/assets/c170d563-2216-4ceb-9178-0c0cbead343f)
+
+![image](https://github.com/user-attachments/assets/05bc49b4-a278-4bf2-b94a-fda32a84221b)
+
+<br />
+
+<h3>3. Working the Issue</h3>
+
+  - As John, he might update the software and restart the computers and post a reply such as:
+
+![image](https://github.com/user-attachments/assets/60acc62a-7117-4bcc-8440-35723b2e3b11)
+ 
+![image](https://github.com/user-attachments/assets/3152c533-6d02-4a5d-a228-a8154df1e34d)
 
 
-As an end-user, create the following ticket
-accounting department needs adobe upgrade, broken
+<h3>4. Resolution</h3>
 
-As a Help Desk Agent (john), observe the ticket’s properties
-	Priority
-	Department
-	SLA
-	Assigned To
+ - After updating the software update/restart and reaching out the customer, he might post a reply such as:
 
-Set Properties to the ticket
-Sev-B (4 hours, 24/7)
-Support
+![image](https://github.com/user-attachments/assets/2b64acdf-04bf-4ce1-8f79-16d8e3762186)
 
-Work the ticket to completion as john
+![image](https://github.com/user-attachments/assets/bf98d116-0c20-4c35-897e-8be8dfc91899)
 
-As an end-user, create the following ticket
-CFO’s laptop will no longer turn on
+  - Now that the issue is resolved, he may now close the ticket
 
-As a Help Desk Agent (john), observe the ticket’s properties
-	Priority
-	Department
-	SLA
-	Assigned To
+![image](https://github.com/user-attachments/assets/c790e8a5-efea-4091-8f7c-8ef91aeb7b7c)
 
-Set Properties to the ticket
-Sev-B (4 hours, 24/7)
-Support
+![image](https://github.com/user-attachments/assets/70283ec8-7bfe-4fdc-a986-6fa4dfeec5ca)
 
-Work the ticket to completion as john
+![image](https://github.com/user-attachments/assets/1f3861e2-7fe8-4bd2-b6c6-45359f515ca7)
 
+![image](https://github.com/user-attachments/assets/0e72110f-7106-468f-b267-43aae91a56b3)
 
-Set Properties to all the tickets; do SEV-A (SysAdmins last), observe ticket becomes inaccessible
-Switch to admin panel and assign yourself View-access to Sys Admins
-Switch to agent panel and observe the escalated ticket
-Observe that you can no longer make changes to it
-
-Solve all of the tickets
-Explain in most ticketing systems (probably this one too) there is an email capability so every time you update the ticket, the user gets a copy and they can respond
-
-Explain ticket intake IRL:
-Sometimes tickets get created via phone, chat app, email, web form, or maybe even you run into someone in your hall or they roll up on you at your desk.
-A lot of the time people will randomize you and try to get you to fix stuff on the spot. It’s fine to fix things on the spot, but generally speaking, you want to create tickets for EVERYTHING you do. (metrics are important)
+<br />
