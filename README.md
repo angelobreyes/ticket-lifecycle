@@ -201,7 +201,7 @@ Welcome the last part of the osTicket tutorial. Here, we will show the lifecycle
 
 <h3>4. Resolution</h3>
 
- - After updating the software update/restart and reaching out the customer, he might post a reply such as:
+ - After updating the software update/restart and reaching out to the user, he might post a reply such as:
 
 ![image](https://github.com/user-attachments/assets/2b64acdf-04bf-4ce1-8f79-16d8e3762186)
 
