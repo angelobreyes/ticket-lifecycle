@@ -3,7 +3,7 @@
 </p>
 
 <h1>osTicket - Ticket Lifecycle: Intake Through Resolution</h1>
-Welcome the last part of the osTicket tutorial. Here, we will show the lifecycle of a ticket from intake to resolution within the open-source help desk ticketing system osTicket. 
+Welcome to the last part of the osTicket tutorial. Here, we will show the lifecycle of a ticket from intake to resolution within the open-source help desk ticketing system osTicket. 
 
 *(note : these are only examples and ticket resolutions/SLAs will vary from organization to organization.)*
 
@@ -218,3 +218,5 @@ Welcome the last part of the osTicket tutorial. Here, we will show the lifecycle
 ![image](https://github.com/user-attachments/assets/0e72110f-7106-468f-b267-43aae91a56b3)
 
 <br />
+
+<h2>Hope you found this OsTicket guide helpful, cheers!</h2>
